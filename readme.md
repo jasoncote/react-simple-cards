@@ -9,9 +9,16 @@ Install Yarn
 https://yarnpkg.com/lang/en/docs/install/
 
 Setup and install project and get packages
-```yarn```
+```
+yarn
+```
 
 Run local dev server
-```yarn dev```
+```
+yarn dev
+```
 
-Dev server runs at http://localhost:8080/
+Dev server runs at 
+```
+http://localhost:8080/
+```
