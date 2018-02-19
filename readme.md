@@ -8,7 +8,7 @@
 Install Yarn
 https://yarnpkg.com/lang/en/docs/install/
 
-Setup and install project and get packages
+Setup and install project and get packages. From project root run:
 ```
 yarn
 ```
@@ -17,6 +17,7 @@ Run local dev server
 ```
 yarn dev
 ```
+(You'll see some eslint error in the terminal that you can ignore)
 
 Dev server runs at 
 ```
