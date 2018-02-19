@@ -16,10 +16,14 @@ const Card = (props) => {
         <div className="card-body">
           {/*<Link to={`/card/${props.show.imdbID}`}>See more</Link>*/}
           <h3 className="card-title">{props.show.title}</h3>
+          {/* Modal link */}
           <button type="button" className="btn btn-primary" data-toggle="modal" data-target={`#${props.show.imdbID}`}>
-            {`Learn more about ${props.show.title}`}
+            {`Modal about ${props.show.title}`}
           </button>
-
+          {/* New page link */}
+          <a className="btn btn-primary mt-4" href={`/card/${props.show.imdbID}`}>
+            {`New page about ${props.show.title}`}
+          </a>
         </div>
         <Modal show={props.show} />
       </div>
